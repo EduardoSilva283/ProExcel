@@ -1,0 +1,51 @@
+.carousel img {
+    height: 450px;
+}
+
+.main-row{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+}
+
+.card-plan {
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.card {
+    margin: 10px;
+    max-width: 500px;
+    min-height: 500px;
+}
+
+
+.clientes img {
+    height: 150px;
+}
+
+.card-img-top {
+    height: 100;
+}
+
+@media (max-width: 850px) {
+
+    .carousel img {
+        height: 200px;
+    }
+
+    .card-plan {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .card {
+        min-height: 100px;
+
+    }
+}
+
