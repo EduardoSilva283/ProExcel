@@ -21,6 +21,15 @@
     min-height: 500px;
 }
 
+
+.clientes img {
+    height: 150px;
+}
+
+.card-img-top {
+    height: 100;
+}
+
 @media (max-width: 850px) {
 
     .carousel img {
@@ -39,3 +48,4 @@
 
     }
 }
+
