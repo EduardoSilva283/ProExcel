@@ -9,6 +9,11 @@
     width: 90%;
     margin: auto;
 }
+.img-par{
+    height: 180px;
+    width: 100%;
+
+}
 
 .card-plan {
     flex-direction: row;
@@ -28,6 +33,19 @@
 
 .card-img-top {
     height: 100;
+}
+
+.espaco{
+width: 100px;
+height: 300px;
+
+}
+
+
+footer {
+    position: relative ;
+    bottom: 0;
+    left: 0;
 }
 
 @media (max-width: 850px) {
